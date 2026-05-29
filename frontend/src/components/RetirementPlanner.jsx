@@ -12,7 +12,7 @@ function RetirementPlanner() {
   const calculate = async () => {
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/retirement",
+      "https://budgetiq-personal-finance-analyzer-production.up.railway.app/",
       {
         current_age: Number(currentAge),
         retirement_age: Number(retirementAge),
