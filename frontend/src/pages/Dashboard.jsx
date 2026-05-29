@@ -56,7 +56,7 @@ function Dashboard() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://budgetiq-personal-finance-analyzer-production.up.railway.app/",
         formData,
       );
       console.log(response.data);
