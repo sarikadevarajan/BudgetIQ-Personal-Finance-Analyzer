@@ -56,7 +56,7 @@ function Dashboard() {
 
     try {
       const response = await axios.post(
-        "https://budgetiq-personal-finance-analyzer-production.up.railway.app/",
+        "https://budgetiq-personal-finance-analyzer-production.up.railway.app/upload",
         formData,
       );
       console.log(response.data);
